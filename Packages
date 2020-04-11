@@ -1,0 +1,72 @@
+Package: com.nhatduc.napnhatduc
+Name: Nạp Nhật Đức 
+Version: 0.0.1-87+debug
+Architecture: iphoneos-arm
+Filename: ./debs/napnhatduc.deb
+MD5sum:8b773823cc637398b5f2a08fe9421357
+SHA1:3e080c68cb56d25f147cf0e3e3a703e5e67c000e
+SHA256:a1ab0bf89015451009c8aaa9cc2e43d5f80bfe43b8dec53751d3fe3709e58ff2
+Size:62204
+Description: Nạp Game Ngô Nhật Đức 
+Section: Tweaks
+Pre-Depends: com.nhatduc.rocketbootstrap
+Depends: mobilesubstrate
+Maintainer: Ngô Nhật Đức <ducnhatbap@gmail.com>
+Author: Ngô Nhật Đức
+
+Package: com.nhatduc.xanhatduc
+Name: Xả Nhật Đức 
+Version: 0.0.1-87+debug
+Architecture: iphoneos-arm
+Filename: ./debs/xanhatduc.deb
+MD5sum:3b1605fb086db9dd02251909d0853d6e
+SHA1:708378486eec30328619a15d01a473fbe1fc0618
+SHA256:309fcfe0dfd0734604042b0ba54ab6d1adb544f2f1bd1e47ff42267b554e5a61
+Size:56582
+Description: Nạp Game Ngô Nhật Đức 
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: Ngô Nhật Đức <ducnhatbap@gmail.com>
+Author: Ngô Nhật Đức
+
+
+
+Package: com.nhatduc.icleanerpro
+Name: iCleaner Pro 
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Version: 7.8.2
+Architecture: iphoneos-arm
+Filename: ./debs/icleanerpro.deb
+MD5sum:23fa1cd6cf46e6852fec4803d8cd5d54
+SHA1:eb40314175ff00ced7714d81a315882975a0430d
+SHA256:618cc66616a814c7fb71e3d4769e485f580f773103732b1ecfeec925368beed1
+Size:9658626
+Homepage: http://ib-soft.net/icleaner
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Section: Utilities
+Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+
+
+Package: com.nhatduc.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Name: RocketBootstrap
+Version: 1.0.7
+Architecture: iphoneos-arm
+Filename: ./debs/rocketbootstrap.deb
+MD5sum:d413da3658d037f4836b408e91584e36
+SHA1:fd4ec69155094ec14862a7dbdf871a05a76811dd
+SHA256:2878bd6d1fba64b64578d8e8d4f0928f74f5ec5e7b8618081e04b2b49d1e58e8
+Size:67710
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Maintainer: Ngô Nhật Đức
+Author: Ngô Nhật Đức
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Installed-Size: 596
