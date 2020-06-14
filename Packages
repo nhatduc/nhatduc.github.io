@@ -9,8 +9,7 @@ SHA256:a1ab0bf89015451009c8aaa9cc2e43d5f80bfe43b8dec53751d3fe3709e58ff2
 Size:62204
 Description: Nạp Game Ngô Nhật Đức 
 Section: Tweaks
-Pre-Depends: com.nhatduc.rocketbootstrap
-Depends: mobilesubstrate
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
 Maintainer: Ngô Nhật Đức <ducnhatbap@gmail.com>
 Author: Ngô Nhật Đức
 
@@ -25,7 +24,7 @@ SHA256:309fcfe0dfd0734604042b0ba54ab6d1adb544f2f1bd1e47ff42267b554e5a61
 Size:56582
 Description: Nạp Game Ngô Nhật Đức 
 Section: Tweaks
-Depends: mobilesubstrate
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
 Maintainer: Ngô Nhật Đức <ducnhatbap@gmail.com>
 Author: Ngô Nhật Đức
 
@@ -50,23 +49,3 @@ Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Icon: file:///Applications/iCleaner.app/Icon.png
-
-
-Package: com.nhatduc.rocketbootstrap
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
-Name: RocketBootstrap
-Version: 1.0.7
-Architecture: iphoneos-arm
-Filename: ./debs/rocketbootstrap.deb
-MD5sum:d413da3658d037f4836b408e91584e36
-SHA1:fd4ec69155094ec14862a7dbdf871a05a76811dd
-SHA256:2878bd6d1fba64b64578d8e8d4f0928f74f5ec5e7b8618081e04b2b49d1e58e8
-Size:67710
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Maintainer: Ngô Nhật Đức
-Author: Ngô Nhật Đức
-Sponsor: thebigboss.org <http://thebigboss.org>
-Section: Tweaks
-dev: rpetrich
-Tag: purpose::extension, role::developer
-Installed-Size: 596
